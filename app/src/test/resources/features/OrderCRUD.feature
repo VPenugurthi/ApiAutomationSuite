@@ -59,7 +59,7 @@ Feature: PlaceOrder
     
     Examples: 
     | productId                        |
-    | 6581cade9fd99c85e8ee7ff5         |
+    | 67a8dde5c0d3e6622a297cc8         |
     
     
   Scenario Outline: User verifies that the order details contain the logged email ID
