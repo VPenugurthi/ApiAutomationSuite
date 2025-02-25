@@ -10,10 +10,6 @@ repositories {
 
 dependencies {
     // Use TestNG framework, also requires calling test.useTestNG() below
-    testImplementation libs.testng
-
-    // This dependency is used by the application.
-    implementation libs.guava
     testImplementation 'io.rest-assured:rest-assured:5.5.0'
     implementation 'io.cucumber:cucumber-java:7.20.1'
     implementation 'io.cucumber:cucumber-testng:7.20.1'
